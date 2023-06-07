@@ -301,6 +301,12 @@ Listening on http://127.0.0.1:8088/
 Hit Ctrl-C to quit.
 ```
 
+----------老党添加---------------
+上一种方式只能前端启用，后台启动办法：
+```
+sudo nohup python3 -u app.py > nohup.out 2>&1 &
+```
+
 #### 2.2 设置公众号回调地址
 
 在 [微信公众平台](https://mp.weixin.qq.com/) 中进入个人订阅号，启用服务器配置：
